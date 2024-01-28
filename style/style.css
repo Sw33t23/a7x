@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "UnderwoodChampion";
+    src: url(../fontes/uwch.ttf);
+}
+
+body 
+{
+    color:black;
+    font-size:medium;
+    text-align: justify;
+    background-color: rgb(226, 200, 175);
+    width: 100%;
+    margin: 0 auto;
+    font-family: "UnderwoodChampion";
+    
+    
+}
+body h1
+{
+   color:rgb(0, 0, 0);
+   text-align: center;
+   padding-bottom: 20px;
+}
+body li
+{
+    list-style: none;
+}
+
+ body > div {
+  width: 100%;
+ }
+ body > div > img{
+    width: 990px;
+    height: 450px;
+    display: block;
+    margin: 0 auto;
+    
+ }
+ .imagemIndex img{
+  width: 990px;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
+ }
+
+
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+ }
+ 
+ li {
+   float: right;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-family: "UnderwoodChampion" ;
+ }
+ 
+  
+ li a:hover {
+   background-color:  #6b6565;
+ }
+
+ .ativo {
+  background-color:rgb(226, 200, 175);
+}
+
+.libad{
+    width: 300px;
+    height: 450px;
+   float: right;
+   margin-top: 2%;
+ }
+
+.content{
+  color:black;
+  text-align: center;
+  font-family: "UnderwoodChampion";
+}
+
+.aboutus{
+  color:black;
+  text-align: center;
+  font-family: "UnderwoodChampion";
+  padding-bottom: 30px;
+}
+
+.Videos{
+  visibility: hidden;
+  
+}
+
+.column {
+  float: left;
+  margin-right: 10px;
+}
+
+.row {
+  width: 1240px;
+  margin: 0 auto;
+}
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
